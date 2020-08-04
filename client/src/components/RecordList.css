@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 7em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: black;
+  /* background-color: blue; */
+}
+
+.cardContainer {
+  letter-spacing: 0.2em;
+  display: flex;
+  flex-direction: column;
+  flex-direction: space-around;
+  padding-bottom: 1cm;
+  padding-left: 2em;
+  padding-right: 2em;
+  min-width: 20em;
+  max-height: 405px;
+  align-items: center;
+
+  color: black;
+
+  /* background-color: #00b7be; */
+}
+.ActionCard-One {
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 0em;
+  display: flex;
+  padding-bottom: 2cm;
+  background-color: #77ccd3;
+  font-size: 0.5em;
+  min-height: 10em;
+  /* min-width: 15em; */
+  max-width: 30em;
+}
+.recordTimeStamp {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.5em;
+  min-width: 10em;
+}
+
+.cardButton {
+  margin-top: 3em;
+}
+.buttonFlex {
+  padding-right: 2em;
+  justify-content: flex-end;
+  display: flex;
+}
+.recordCardButtonFlex {
+  justify-content: flex-end;
+  display: flex;
+  padding-left: 5em;
+}
+
+.mainCard {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  padding-top: -0.5em;
+  padding-left: 13%;
+  min-width: 15em;
+  max-width: 35em;
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.cardColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.ResistsActionColor {
+  border: solid #36a2eb;
+  border-width: 0.2em;
+}
+.SubmitsActionColor {
+  border: solid#FF6384;
+  border-width: 0.2em;
+}
+.UndoActionColor {
+  border: solid#FFCE56;
+  border-width: 0.2em;
+}
+.H3-Border-Undo {
+  border-top: solid #ffce56;
+  border-bottom: solid #ffce56;
+}
+.H3-Border-Submit {
+  border-top: solid#FF6384;
+  border-bottom: solid#FF6384;
+}
+.H3-Border-Resist {
+  border-top: solid #36a2eb;
+  border-bottom: solid #36a2eb;
+}
+.RecordCard {
+  max-width: 10px;
+}
+
+
+
+.Record-P-Tag-UNDO {
+  font-size: 10px;
+}
